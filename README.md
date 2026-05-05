@@ -67,7 +67,7 @@ A responsive React-based web application that dynamically displays products acro
 
 ---
 
-**## ⏱️ Time Taken**
+⏱️ Time Taken
 
 Approximately 5–6 hours
 
