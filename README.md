@@ -5,7 +5,7 @@ A responsive React-based web application that dynamically displays products acro
 ---
 
 ## 🌐 Live Demo
-👉 https://catalog-app.vercel.app  
+👉 https://catalog-app-theta-nine.vercel.app/
 
 ## 📂 GitHub Repository
 👉 https://github.com/kamakshibhat14/catalog-app  
@@ -31,7 +31,7 @@ A responsive React-based web application that dynamically displays products acro
 - **Data Handling:** JSON
 
 ---
-
+```md
 ## 🧠 Approach
 
 - Parsed the provided JSON data to dynamically generate UI.
@@ -44,6 +44,7 @@ A responsive React-based web application that dynamically displays products acro
   ```js
   item.itemprops.map(...)
 
+## 📁 Folder Structure
 
   catalog-app/
 │── src/
