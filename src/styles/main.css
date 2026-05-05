@@ -1,4 +1,4 @@
-/* 🌈 GLOBAL RESET */
+/* GLOBAL RESET */
 * {
   box-sizing: border-box;
 }
@@ -59,14 +59,14 @@ body::after {
   50% { transform: translateY(-40px); }
   100% { transform: translateY(0px); }
 }
-/* 📦 CONTAINER */
+/* CONTAINER */
 .container {
   padding: 30px;
   max-width: 1300px;
   margin: auto;
 }
 
-/* 🏷️ TITLE */
+/* TITLE */
 .title {
   text-align: center;
   margin-bottom: 40px;
@@ -75,7 +75,7 @@ body::after {
   letter-spacing: 1px;
 }
 
-/* 📂 CATEGORY */
+/* CATEGORY */
 .category {
   margin-bottom: 50px;
   padding: 25px;
@@ -97,14 +97,14 @@ body::after {
   border-left: 4px solid #007bff;
 }
 
-/* 🔲 GRID */
+/* GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 22px;
 }
 
-/* 🧱 CARD */
+/* CARD */
 .card {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
@@ -150,7 +150,7 @@ body::after {
   transform: scale(0.96);
 }
 
-/* 📄 DETAIL PAGE */
+/* DETAIL PAGE */
 .detail {
   max-width: 900px;
   margin: auto;
@@ -190,7 +190,7 @@ body::after {
   font-weight: 500;
 }
 
-/* 🧾 PROPERTIES */
+/* PROPERTIES */
 .props {
   margin-top: 25px;
 }
@@ -214,7 +214,7 @@ body::after {
   transform: scale(1.02);
 }
 
-/* 🔙 BACK BUTTON */
+/* BACK BUTTON */
 .detail-header {
   display: flex;
   justify-content: flex-end;
@@ -238,7 +238,7 @@ body::after {
   box-shadow: 0 6px 15px rgba(0,123,255,0.4);
 }
 
-/* 📱 RESPONSIVE */
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .title {
     font-size: 24px;
